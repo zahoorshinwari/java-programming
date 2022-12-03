@@ -19,7 +19,7 @@ class GUI
         // 5 is space between the button in the border in row wise
         // 50 is space between the button in the colomn wise
         // we can increase and decrease the size and by default there will be no space between them
-        frame.setLayout(new BorderLayout(5,50));
+        frame.setLayout(new BorderLayout());
         frame.add(north,BorderLayout.NORTH);
         frame.add(south,BorderLayout.SOUTH);
         frame.add(east,BorderLayout.EAST);

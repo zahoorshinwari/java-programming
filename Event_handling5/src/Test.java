@@ -69,6 +69,7 @@ class GUI implements MouseListener
     public void mouseExited(MouseEvent e) {
         if(e.getSource() == exit)
             System.out.println("you have exited from the dimention of the button");
+        System.exit(0);
     }
 }
 public class Test {
