@@ -15,7 +15,7 @@ class GUI implements ActionListener
         frame.add(ok);
         frame.setLayout(new FlowLayout());
         frame.setVisible(true);
-        frame.setSize(300,200);
+       // frame.setSize(300,200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          ok.addActionListener(this);
     }
