@@ -29,13 +29,16 @@ public class GUI implements ActionListener
         
         frame.add(first);
         frame.add(firstnumber);
+        System.out.println();
         frame.add(second);
         frame.add(secondnumber);
         System.out.println();
         frame.add(plus);
         frame.add(mul);
+        System.out.println();
         frame.add(third);
         frame.add(result);
+        System.out.println();
         frame.setSize(120,220);
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
